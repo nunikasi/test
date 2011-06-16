@@ -1,9 +1,10 @@
+// Er tallene delelige?
 #include <stdio.h>
 int main (int argc, char const *argv[]){
    int x, y = 1;
    while(y != 0){             	// Kjør mens y ikke er 0
    	printf("Sjekk om to tall er delelige. F.eks 6/3:\n");
-   	x, y = 0;   
+   	x, y = 0;
    	scanf("%d / %d", &x, &y);
    	sjekkDeling(x, y);         // Kjør funksjonen sjekkDeling()
    }
